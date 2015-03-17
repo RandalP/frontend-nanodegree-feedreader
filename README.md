@@ -4,6 +4,8 @@ Project 6 of frontend web developer nanodegree, based on [rubric](https://www.ud
 
 Uses [Jasmine](http://jasmine.github.io/) to test a RSS feed reader.
 
+The feed reader and tests can be found at [site](http://randalp.github.io/frontend-nanodegree-feedreader/)
+
 ## Extra Tests
 
 1. The menu contains links for each feed

@@ -64,7 +64,7 @@ $(function() {
         it('contains links for each feed', function() {
             // Check there is a link for each feed in allFeeds
             expect($('.feed-list').find('a').length).toEqual(allFeeds.length);
-        })
+        });
     });
 
     describe('Initial Entries', function() {
@@ -92,7 +92,7 @@ $(function() {
 
             // Clicking on a new feed triggers loadFeed with the correct parameter
             it('runs loadFeed with correct parameters', function() {
-                var blogs = $('.feed-list').find('a')
+                var blogs = $('.feed-list').find('a');
                 blogs.each(function(i) {
                     var blog = blogs[i];
                     blog.click();

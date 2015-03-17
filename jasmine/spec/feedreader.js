@@ -119,6 +119,11 @@ $(function() {
                 expect($('.header-title').text()).not.toEqual(currentTitle);
                 expect($('.header-title').text()).toEqual(allFeeds[ordinal].name);
             });
+
+            afterEach(function() {
+                // Put everything back how it was before we ran the test.
+                loadFeed(0);
+            })
         });
     });
 }());

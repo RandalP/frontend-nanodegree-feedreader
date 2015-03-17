@@ -115,6 +115,7 @@ $(function() {
      * (following the link) from occuring.
      */
     feedList.on('click', 'a', function() {
+
         var item = $(this);
 
         $('body').addClass('menu-hidden');
